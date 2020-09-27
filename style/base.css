@@ -2,44 +2,15 @@
     box-sizing: border-box;
 }
 
-
-/** Mobile styles **/
 body {
     width: 480px;
     margin: 50px auto;
     text-align: center;
+    color: #000;
+    background-color: #fff;
 }
 
 header, nav, div, footer {
-    border: solid 1px grey;
-    background-color: lightgrey;
+    outline: solid 1px grey;
     overflow: hidden;
-}
-
-header {
-    height: 75px;
-    line-height: 75px;;
-}
-
-nav {
-    height: 150px;
-    line-height: 150px;
-}
-
-
-.top-content > div {
-    height: 125px;
-    line-height: 125px;
-}
-
-.bottom-content > div {
-    width: 50%;
-    float: left;
-    height: 250px;
-    line-height: 250px;
-}
-
-footer {
-    height: 80px;
-    line-height: 80px;
 }
