@@ -1,0 +1,9 @@
+body {
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, nav, div, footer {
+    border: solid 1px;
+}
