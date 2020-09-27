@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 480px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
+    color: #000;
+    background-color: #fff;
 }
 
 header, nav, div, footer {
-    border: solid 1px;
+    outline: solid 1px grey;
+    overflow: hidden;
 }
